@@ -5,7 +5,7 @@ You can get a `weather station ID` based on location from the map available in:
 
 https://climatologia.meteochile.gob.cl/application/informacion/mapaDeEstaciones/
 
-The notebook then can webscrap the entered station's registered measurements for the **variables** supported, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
+The notebook then can webscrap the entered station's registered measurements for the **variables** supported in the entered year range, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
 
 If the data was extracted and saved before, the notebook just loads the data in local memory.
 
@@ -16,6 +16,8 @@ If the data was extracted and saved before, the notebook just loads the data in 
 After loading the data, the notebook includes some **plotting** functionalities that allow you to:
 
   **1. Plot the measured values of a variable for a single year.**
+  
   **1. Plot all the measured values available for a variable.**
+  
   **1. Create a comparative plot of different year ranges that allow to visually infer weather deviations.**
 
