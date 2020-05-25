@@ -5,7 +5,7 @@ You can get a `weather station ID` based on location from the map available in:
 
 https://climatologia.meteochile.gob.cl/application/informacion/mapaDeEstaciones/
 
-The notebook then can webscrap the registered measurements for the **variables** supported, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
+The notebook then can webscrap the entered station's registered measurements for the **variables** supported, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
 If the data was extracted and saved before, the notebook just loads the data in local memory.
 
   *The notebook currently supports just 3 of all the measured variables. **[Temperature, Precipitation and Humidity]***
