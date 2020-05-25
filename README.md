@@ -9,7 +9,7 @@ https://climatologia.meteochile.gob.cl/application/informacion/mapaDeEstaciones/
 
 ***
 
-The notebook can webscrap the entered station's registered measurements for the **variables** supported in the entered year range, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
+The notebook can webscrap the entered station's registered measurements for the **variables** supported in the entered year range, mount them on a **DataFrame** and save them to local memory, if the extracted data is not already there. 
 
 If the data was extracted and saved before, the notebook just loads the data in local memory.
 
