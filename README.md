@@ -1,11 +1,15 @@
 # Chile_weather_data
 Notebook for extracting, mounting and saving the weather data of governmental weather monitoring stations in Chile. 
 
+***
+
 You can get a `weather station ID` based on location from the map available in: 
 
 https://climatologia.meteochile.gob.cl/application/informacion/mapaDeEstaciones/
 
-The notebook then can webscrap the entered station's registered measurements for the **variables** supported in the entered year range, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
+***
+
+The notebook can webscrap the entered station's registered measurements for the **variables** supported in the entered year range, mount them on a **DataFrame** and save them to local memory if the extracted data is not already there. 
 
 If the data was extracted and saved before, the notebook just loads the data in local memory.
 
